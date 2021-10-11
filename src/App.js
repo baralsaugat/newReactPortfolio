@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 
-import { Navigator } from "./components/home/navbar/Navigator.js";
+import { Navigator } from "./components/home/navbar/Navigator";
+import { HeroText } from "./components/home/herotext/HeroText";
 
 import "./App.css";
 
@@ -10,6 +11,12 @@ function App() {
       <Row>
         <Col>
           <Navigator />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <HeroText />
         </Col>
       </Row>
     </div>
