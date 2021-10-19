@@ -3,8 +3,10 @@ import { Row, Col } from "react-bootstrap";
 import { Navigator } from "./components/home/navbar/Navigator";
 import { HeroText } from "./components/home/herotext/HeroText";
 
-import "./App.css";
+import { AboutMe } from "./components/about-me/AboutMe";
 
+import { Projects } from "./components/projectwall/Projects";
+import "./App.css";
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,18 @@ function App() {
       <Row>
         <Col>
           <HeroText />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <AboutMe />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <Projects />
         </Col>
       </Row>
     </div>

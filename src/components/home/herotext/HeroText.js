@@ -6,10 +6,15 @@ import "./heroText-style.css";
 export const HeroText = () => {
   return (
     <div className="main">
-      <h1>Namaste !!!</h1>
-      <h2>This is</h2>
-      <div className="image">
-        <img src={profilepic} alt="profilepic" />
+      <div className="text">
+        <h1>Namaste !!!</h1>
+        
+        <h2>Saugat Baral </h2>
+        <h2>Software Developer</h2>
+      </div>
+
+      <div>
+        <img src={profilepic} alt="profilepic" className="image-file" />
       </div>
     </div>
   );

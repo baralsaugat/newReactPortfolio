@@ -2,6 +2,7 @@
   background-color: #393939;
   font-family: "Righteous", cursive;
   position: fixed;
+  width: 100vw;
 }
 .navbar-items img {
   width: 40px;
