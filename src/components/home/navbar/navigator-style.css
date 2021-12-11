@@ -1,11 +1,13 @@
 .navbar-items {
   background-color: #393939;
   font-family: "Righteous", cursive;
+
   position: fixed;
   width: 100vw;
+  z-index: 1;
 }
 .navbar-items img {
-  width: 40px;
+  width: 30px;
 }
 
 .nav-items {
