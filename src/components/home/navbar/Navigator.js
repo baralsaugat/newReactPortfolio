@@ -14,15 +14,15 @@ export const Navigator = () => {
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Nav className="nav-items">
-            <Nav.Link href="#blog" style={{ color: "#F9BA60" }}>
+            <Nav.Link href="#blog" style={{ color: "#b3aeab" }}>
               blog
             </Nav.Link>
-            <Nav.Link href="#about-me" style={{ color: "#F9BA60" }}>
+            <Nav.Link href="#about-me" style={{ color: "#b3aeab" }}>
               about me
             </Nav.Link>
             <Nav.Link
               href="https://www.linkedin.com/in/saugat-baral-3491776b/"
-              style={{ color: "#2867B2" }}
+              style={{ color: "#b3aeab" }}
             >
               <i class="fab fa-linkedin"></i>
             </Nav.Link>
