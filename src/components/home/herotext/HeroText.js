@@ -3,6 +3,7 @@ import React from "react";
 import profilepic from "../../../assets/new.jpg";
 import car from "../../../assets/car.png";
 import road from "../../../assets/road.png";
+import carsvg from "../../../assets/carsvg.svg";
 import "./heroText-style.css";
 
 export const HeroText = () => {
@@ -27,8 +28,8 @@ export const HeroText = () => {
         </div>
       </div>
       <div>
-        {" "}
-        <img id="car-image" src={car} alt="car" />
+        <img id = "car-image" src={carsvg} alt="carsvg" />
+        {/* <img id="car-image" src={car} alt="car" /> */}
         <img id="road-image" src={road} alt="road" />
       </div>
     </div>

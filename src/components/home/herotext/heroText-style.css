@@ -1,11 +1,12 @@
 .top-section-hero {
   display: flex;
   flex-direction: column;
-  background-color: #1c6c77;
+  background-color: #42d1c596;
   height: 100vh;
   width: 100vw;
   justify-content: space-around;
   padding-bottom: 6rem;
+  color: rgba(51, 10, 5, 0.979);
 }
 
 .main-hero {
@@ -49,8 +50,6 @@
   width: 3.5rem;
   transform: scaleX(-1);
   position: relative;
-
-
   animation: car-ride 15s 2;
 }
 
