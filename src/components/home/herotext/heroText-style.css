@@ -1,18 +1,21 @@
 .top-section-hero {
   display: flex;
   flex-direction: column;
-  background-color: #42d1c596;
+  background-image: linear-gradient( to right,  #cfe1ef, #5195c9 );
   height: 100vh;
   width: 100vw;
   justify-content: space-around;
   padding-bottom: 6rem;
   color: rgba(51, 10, 5, 0.979);
+  flex-wrap: wrap;
+
 }
 
 .main-hero {
   font-family: "Righteous", cursive;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .intro-style {
@@ -20,6 +23,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+.image-file {
+
+  object-fit: contain;
+  height: auto;
+  padding-top: 14rem;
+  overflow: hidden;
+  
 }
 
 .side-text {
@@ -37,13 +49,7 @@
   left: 50%;
 }
 
-.image-file {
-  height: 40%;
 
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transform: rotate();
-  border-radius: 50% 0% 50% 0%;
-}
 
 #car-image {
   height: 3.5rem;
